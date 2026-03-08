@@ -1,0 +1,80 @@
+/* googel fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* google fonts end */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e0e0e0;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+/* product cards section */
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.product-card-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.prduct-card {
+  background-color: white;
+  width: 300px;
+  border-radius: 8px;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.card-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.product-card-details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex-grow: 1;
+}
+.product-heading {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.product-discription {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.product-price {
+  font-size: 1rem;
+  color: #2ecc71;
+  margin-bottom: 1rem;
+}
+.buy-btn {
+  background-color: #3498db;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.buy-btn:hover {
+  background-color: #2980b9;
+}
